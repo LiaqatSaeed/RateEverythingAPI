@@ -1,8 +1,12 @@
 import { Injectable } from '@nestjs/common';
+import { IAppProps } from './interfaces';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getHello(): IAppProps {
+    return {
+      message: 'Hello from Rate Everything API',
+      title: 'Rate Everything - API',
+    };
   }
 }
