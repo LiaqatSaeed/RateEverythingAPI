@@ -46,8 +46,7 @@ We are using the following conventions to identify what the commit is doing:
 ## Stay in touch
 
 - Author - [Liaqat Saeed](https://liaqatsaeed6777.com)
-- Website - [https://nestjs.com](https://liaqatsaeed6777.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Twitter - [@liaqatsaeed6777](https://twitter.com/liaqatsaeed6777)
 
 
 ## Authentication
@@ -60,7 +59,7 @@ We'll start by generating an **AuthModule** and in it, an **AuthService** and an
 
 ### Commands
 
-- `$ nest g module auth
-$ nest g controller auth
-$ nest g service auth`
+- `$ nest g module MODULE_NAME` creates module
+- `$ nest g controller CONTROLLER_NAME` creates controller
+- `$ nest g service SERVICE_NAME` creates service
 
